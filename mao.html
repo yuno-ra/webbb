@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Cyber Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+  
+    <header>
+        <a href="#home" class="logo">Melody<span>.Arciaga</span></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#others">Others</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button class="theme-btn" onclick="toggleTheme()">Mode</button></li>
+        </ul>
+    </header>
+
+  
+    <section id="home">
+        <div class="hero-text">
+            <h1>Good day it's me <span>Arciaga Melody</span></h1>
+            <p>I'm a passionate web developer creating responsive and modern websites.</p>
+            <a href="#contact" class="btn">Reach me</a>
+        </div>
+        <div class="hero-img">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Profile">
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <h2 class="section-title">About me</h2>
+        <div class="box-list">
+            <div class="box-item">
+                <h3>1. my goal</h3>
+                <p>To become a proficient web developer and contribute to creating innovative and user-friendly web applications.</p>
+            </div>
+            <div class="box-item">
+                <h3>2. Education</h3>
+                <p>Bachelor of Science in Computer Science graduate with a focus on web development and user experience design.</p>
+            </div>
+            <div class="box-item">
+                <h3>3. Experience</h3>
+                <p>Experienced in creating user-friendly interfaces, responsive layouts, and modern web applications.</p>
+            </div>
+            <div class="box-item">
+                <h3>4. Work Ethic & Passion</h3>
+                <p>Quick to adapt to new frameworks and always dedicated to completing each project on time.</p>
+            </div>
+            <div class="box-item">
+                <h3>5. Motto sa Buhay</h3>
+                <p>"Continuous learning and adaptation to new technologies." - Always ready to learn new knowledge.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skill-container">
+            <div class="skill-item">
+                <label>HTML5 (95%)</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <label>CSS3 (90%)</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <label>Basic JavaScript (80%)</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="others">
+        <h2 class="section-title">Other Projects</h2>
+        <div class="box-list">
+            <div class="box-item">
+                <h3>1. Cyber UI Dashboard</h3>
+                <p>Isang futuristic user interface design na binuo gamit ang CSS grid at custom neon glowing effects.</p>
+            </div>
+            <div class="box-item">
+                <h3>2. Mobile Web App Landing Page</h3>
+                <p>Isang fully responsive web layout na smooth at mabilis mag-load kahit sa mga smartphone screens.</p>
+            </div>
+            <div class="box-item">
+                <h3>3. JS Interactive Tools</h3>
+                <p>Mga simpleng JavaScript scripts katulad ng menu toggle, mode switcher, at custom notifications.</p>
+            </div>
+            <div class="box-item">
+                <h3>4. E-Commerce Interface Concept</h3>
+                <p>Isang modernong online store design layout na nagpapakita ng product grid at dynamic cards.</p>
+            </div>
+            <div class="box-item">
+                <h3>5. Weather Web Application</h3>
+                <p>Isang simpleng web app design para sa pagtitingin ng live weather updates at forecast summary.</p>
+            </div>
+            <div class="box-item">
+                <h3>6. Personal Task Manager</h3>
+                <p>Isang to-do list web component kung saan pwedeng mag-add, edit, at mag-delete ng mga pang-araw-araw na gawain.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-container">
+            <a href="mailto:email@example.com" class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <p>Email Me</p>
+            </a>
+            <a href="#" class="contact-card">
+                <i class="fab fa-github"></i>
+                <p>GitHub</p>
+            </a>
+            <a href="#" class="contact-card">
+                <i class="fab fa-facebook"></i>
+                <p>Facebook</p>
+            </a>
+        </div>
+    </section>
+
+  
+    <footer>
+        <p>2026 Cyber Portfolio. All rights reserved.</p>
+    </footer>
+
+    
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('light-mode');
+        }
+    </script>
+
+</body>
+</html>
